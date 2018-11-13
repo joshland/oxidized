@@ -17,9 +17,9 @@ Gem::Specification.new do |s|
   s.executables       = %w[oxidized]
   s.require_path      = 'lib'
 
-  s.required_ruby_version =           '>= 2.0.0'
+  s.required_ruby_version =           '>= 2.0'
   s.add_runtime_dependency 'asetus',  '~> 0.1'
-  s.add_runtime_dependency 'net-ssh', '~> 4.1.0'
+  s.add_runtime_dependency 'net-ssh', '~> 5.0'
   s.add_runtime_dependency 'net-telnet', '~> 0.1.1'
   s.add_runtime_dependency 'rugged',  '~> 0.21', '>= 0.21.4'
   s.add_runtime_dependency 'slop',    '~> 3.5'
